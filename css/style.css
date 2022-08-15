@@ -1,0 +1,62 @@
+/*Universal selector*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/*Name selector*/
+body{
+    background-color: coral;
+    color: black;
+}
+/*Id selector*/
+#admin-box{
+    background-color: brown;
+    width: 50%;
+    margin: 150px auto 0px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+/*Decendent selector*/
+#admin-box h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    margin: 20px;
+}
+input, label{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+label {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="submit"]{
+    width: 40%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: yellowgreen;
+    margin-top: 20px;
+    transition: ease-in-out 0.8s;
+}
+input[type="submit"]:hover{
+    background-color: red;
+    border-radius: 8px;
+}
+p{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: orange;
+    margin-top: 10px;
+}
